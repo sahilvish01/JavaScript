@@ -1,3 +1,5 @@
+// This keyword
+
 console.log(this);
 
 let name = "Sahil";     // let and const variable memory mein ek alag block mein safe rakhe jaate hai, isliye global object ki name property nahi bante 
