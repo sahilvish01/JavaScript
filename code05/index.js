@@ -12,7 +12,8 @@ let btn = document.querySelector("button")
 
 btn.addEventListener("click", () => {
         
-    h1.innerText += inp1.value;
+    h1.innerText = inp1.value;
+    // h1.innerText += inp1.value;      // For concatination
     inp1.value = "";
     
 })
